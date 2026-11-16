@@ -1,9 +1,10 @@
 const CACHE = 'physioguidelines-v1.2.1';
-const CORE = ['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./assets/icon.svg','./assets/icon-192.png','./assets/icon-512.png'];
+const CORE = ['./','./index.html','./styles.css?v=1.2.1','./app.js?v=1.2.1','./manifest.webmanifest','./assets/icon.svg','./assets/icon-192.png','./assets/icon-512.png'];
 self.addEventListener('install', event => { event.waitUntil(caches.open(CACHE).then(async cache => {
     await Promise.all(CORE.map(async url => {
-      const response = await fetch(new Request(url, {cache:'reload'}));
-      if (response && response.ok) await cache.put(url, response);
+      const request = new Request(new URL(url, self.registration.scope), {cache:'reload'});
+      const response = await fetch(request);
+      if (response && response.ok) await cache.put(request, response);
     }));
   })); self.skipWaiting(); });
 self.addEventListener('activate', event => { event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key))))); self.clients.claim(); });
