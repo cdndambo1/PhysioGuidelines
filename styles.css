@@ -2,3 +2,17 @@
 @media(max-width:980px){.main{padding:25px 25px}.sidebar{width:220px}.hero{padding:35px}.hero-art{right:5px;transform:scale(.85);transform-origin:right center}.detail-content{grid-template-columns:1fr 230px}}
 @media(max-width:740px){.topbar{height:66px;padding:0 17px}.brand-mark{width:38px;height:38px}.brand strong{font-size:14px}.brand small{font-size:10px}.icon-button{display:block}.layout{min-height:calc(100vh - 66px)}.sidebar{position:fixed;z-index:20;top:66px;bottom:0;left:0;width:260px;transform:translateX(-105%);transition:.25s;box-shadow:12px 0 35px #0d34401c}.sidebar.open{transform:translateX(0)}.main{padding:20px 16px;width:100%}.hero{padding:28px 24px;min-height:300px}.hero h1{font-size:34px}.hero-art{opacity:.22;right:-40px;top:50px;transform:scale(.9)}.hero-copy{max-width:100%}.hero p{max-width:440px}.stats-row{grid-template-columns:repeat(2,1fr);row-gap:15px;padding:15px 5px;margin-bottom:27px}.stat:nth-child(2){border:0}.stat:nth-child(3),.stat:nth-child(4){padding-top:12px;border-top:1px solid var(--line)}.discipline-grid{grid-template-columns:repeat(2,1fr)}.guideline-grid{grid-template-columns:1fr}.detail-content{grid-template-columns:1fr}.detail-aside{order:-1}.detail-header{padding:24px 21px}.detail-header h1{font-size:25px}.filter-row{flex-wrap:wrap;align-items:center}.filter-row label{flex:1;min-width:130px}.filter-row select{width:100%}.results-meta span:last-child{display:none}.footer{gap:10px;flex-direction:column}.footer div{justify-content:space-between}.section-heading h2,.page-heading h1{font-size:23px}}
 @media(max-width:390px){.hero h1{font-size:30px}.hero-note{display:none}.discipline-grid{grid-template-columns:1fr}.hero-actions{gap:10px}.detail-main,.detail-aside{padding:17px}}
+
+
+/* Version 1.1 expanded clinical scope */
+.scope-panel{margin:2.5rem 0;padding:clamp(1.25rem,3vw,2rem);background:var(--surface,#fff);border:1px solid var(--line,#e4eaf0);border-radius:18px}
+.scope-panel .section-heading{margin-top:0}
+.scope-panel .section-heading p{max-width:760px;color:var(--muted,#64748b)}
+.scope-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem}
+.scope-columns h3{margin:1.1rem 0 .35rem;font-size:1rem;color:var(--ink,#123b55)}
+.scope-columns p{margin:0;color:var(--muted,#526273);line-height:1.65;font-size:.94rem}
+.scope-footnote{margin:1.5rem 0 0;padding-top:1rem;border-top:1px solid var(--line,#e4eaf0);font-size:.88rem;color:var(--muted,#64748b)}
+.planned-card{cursor:default}
+.planned-card .tag{display:inline-flex;align-self:flex-start;margin-top:.65rem}
+.discipline-card .tag{font-size:.72rem}
+@media(max-width:720px){.scope-columns{grid-template-columns:1fr}.scope-panel{padding:1.1rem}}
