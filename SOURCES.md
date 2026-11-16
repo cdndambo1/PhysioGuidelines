@@ -25,3 +25,24 @@ Accessed / prepared: 16 November 2026. Always verify the live source before appl
 - WHO Rehabilitation: https://www.who.int/health-topics/rehabilitation
 
 This register is a starting point, not an exhaustive bibliography. Source links and publication dates should be checked as part of each scheduled editorial review.
+
+
+## Irish professional and service context
+- Irish Society of Chartered Physiotherapists (ISCP) – professional body and public resources: https://www.iscp.ie/
+- ISCP – About the Society: https://www.iscp.ie/about/
+- CORU – regulator and Physiotherapists Registration Board: https://www.coru.ie/
+- Health Service Executive (HSE) – National Clinical Programmes: https://www.hse.ie/eng/about/who/cspd/ncps/
+
+## Additional international evidence and guideline repositories
+- NICE guidance library: https://www.nice.org.uk/guidance
+- NICE NG123 – Urinary incontinence and pelvic organ prolapse in women: https://www.nice.org.uk/guidance/ng123
+- NICE NG249 – Falls: assessment and prevention in older people and in people 50 and over at higher risk: https://www.nice.org.uk/guidance/ng249
+- APTA clinical practice guidelines: https://www.apta.org/patient-care/evidence-based-practice-resources/cpgs/
+- WHO rehabilitation: https://www.who.int/health-topics/rehabilitation
+- ISBI burns resources and practice guidelines: https://worldburn.org/education/isbi_practice_guidelines.aspx
+- ISCoS – International Spinal Cord Society: https://www.iscos.org.uk/
+- AACPDM – American Academy for Cerebral Palsy and Developmental Medicine: https://www.aacpdm.org/
+- Cochrane Library: https://www.cochranelibrary.com/
+- PEDro: https://pedro.org.au/
+
+The scope map in CLINICAL_SCOPE.md is a planned content catalogue, not evidence that all listed topics have completed summaries. Check each source’s current edition when authoring the relevant condition entry.
