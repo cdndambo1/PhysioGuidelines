@@ -1,4 +1,4 @@
-# PhysioGuidelines MVP 1.0
+# PhysioGuidelines 1.1 – expanded clinical scope
 
 A free, installable Progressive Web App (PWA) starter for international physiotherapists. The MVP includes a responsive clinical reference library, searchable guideline summaries, discipline and population filters, local bookmarks, shareable guideline links, and service-worker caching for offline access after the first successful visit.
 
